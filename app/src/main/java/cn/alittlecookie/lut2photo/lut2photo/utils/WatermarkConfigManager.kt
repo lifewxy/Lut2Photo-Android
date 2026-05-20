@@ -148,8 +148,10 @@ class WatermarkConfigManager(private val context: Context) {
             // 新的分离位置参数
             put("textPositionX", config.textPositionX.toDouble())
             put("textPositionY", config.textPositionY.toDouble())
+            put("textPositionReference", config.textPositionReference.name)
             put("imagePositionX", config.imagePositionX.toDouble())
             put("imagePositionY", config.imagePositionY.toDouble())
+            put("imagePositionReference", config.imagePositionReference.name)
 
             // 新的分离透明度参数
             put("textOpacity", config.textOpacity.toDouble())
@@ -215,6 +217,25 @@ class WatermarkConfigManager(private val context: Context) {
             cn.alittlecookie.lut2photo.lut2photo.model.BorderColorMode.MANUAL
         }
 
+        // 读取定位参考系配置
+        val textPositionReferenceName = json.optString("textPositionReference", "CANVAS")
+        val textPositionReference = try {
+            cn.alittlecookie.lut2photo.lut2photo.model.WatermarkPositionReference.valueOf(
+                textPositionReferenceName
+            )
+        } catch (e: IllegalArgumentException) {
+            cn.alittlecookie.lut2photo.lut2photo.model.WatermarkPositionReference.CANVAS
+        }
+
+        val imagePositionReferenceName = json.optString("imagePositionReference", "CANVAS")
+        val imagePositionReference = try {
+            cn.alittlecookie.lut2photo.lut2photo.model.WatermarkPositionReference.valueOf(
+                imagePositionReferenceName
+            )
+        } catch (e: IllegalArgumentException) {
+            cn.alittlecookie.lut2photo.lut2photo.model.WatermarkPositionReference.CANVAS
+        }
+
         return WatermarkConfig(
             isEnabled = json.optBoolean("isEnabled", false),
             enableTextWatermark = json.optBoolean("enableTextWatermark", true),
@@ -225,10 +246,12 @@ class WatermarkConfigManager(private val context: Context) {
                 .toFloat(),
             textPositionY = json.optDouble("textPositionY", json.optDouble("positionY", 90.0))
                 .toFloat(),
+            textPositionReference = textPositionReference,
             imagePositionX = json.optDouble("imagePositionX", json.optDouble("positionX", 50.0))
                 .toFloat(),
             imagePositionY = json.optDouble("imagePositionY", json.optDouble("positionY", 10.0))
                 .toFloat(),
+            imagePositionReference = imagePositionReference,
 
             // 新的分离透明度参数，如果不存在则使用旧参数作为默认值
             textOpacity = json.optDouble("textOpacity", json.optDouble("opacity", 80.0)).toFloat(),

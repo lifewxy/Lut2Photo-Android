@@ -1419,6 +1419,36 @@ class WatermarkSettingsBottomSheet : BottomSheetDialogFragment() {
         binding.sliderTextOpacity.value = config.textOpacity
         binding.sliderImageOpacity.value = config.imageOpacity
 
+        // 设置定位参考系
+        val textReferenceIndex = when (config.textPositionReference) {
+            cn.alittlecookie.lut2photo.lut2photo.model.WatermarkPositionReference.CANVAS -> 0
+            cn.alittlecookie.lut2photo.lut2photo.model.WatermarkPositionReference.ORIGINAL -> 1
+            cn.alittlecookie.lut2photo.lut2photo.model.WatermarkPositionReference.TOP_BORDER -> 2
+            cn.alittlecookie.lut2photo.lut2photo.model.WatermarkPositionReference.BOTTOM_BORDER -> 3
+            cn.alittlecookie.lut2photo.lut2photo.model.WatermarkPositionReference.LEFT_BORDER -> 4
+            cn.alittlecookie.lut2photo.lut2photo.model.WatermarkPositionReference.RIGHT_BORDER -> 5
+        }
+        val imageReferenceIndex = when (config.imagePositionReference) {
+            cn.alittlecookie.lut2photo.lut2photo.model.WatermarkPositionReference.CANVAS -> 0
+            cn.alittlecookie.lut2photo.lut2photo.model.WatermarkPositionReference.ORIGINAL -> 1
+            cn.alittlecookie.lut2photo.lut2photo.model.WatermarkPositionReference.TOP_BORDER -> 2
+            cn.alittlecookie.lut2photo.lut2photo.model.WatermarkPositionReference.BOTTOM_BORDER -> 3
+            cn.alittlecookie.lut2photo.lut2photo.model.WatermarkPositionReference.LEFT_BORDER -> 4
+            cn.alittlecookie.lut2photo.lut2photo.model.WatermarkPositionReference.RIGHT_BORDER -> 5
+        }
+
+        val referenceOptions = arrayOf(
+            getString(R.string.position_reference_canvas),
+            getString(R.string.position_reference_original),
+            getString(R.string.position_reference_top_border),
+            getString(R.string.position_reference_bottom_border),
+            getString(R.string.position_reference_left_border),
+            getString(R.string.position_reference_right_border)
+        )
+
+        binding.dropdownTextPositionReference.setText(referenceOptions[textReferenceIndex], false)
+        binding.dropdownImagePositionReference.setText(referenceOptions[imageReferenceIndex], false)
+
         binding.sliderTextSize.value = config.textSize.coerceAtLeast(0.1f)
         binding.sliderImageSize.value = config.imageSize
         binding.sliderLandscapeCompensation.value = config.landscapeCompensation
@@ -1913,6 +1943,36 @@ class WatermarkSettingsBottomSheet : BottomSheetDialogFragment() {
         binding.sliderImagePositionY.value = config.imagePositionY
         binding.sliderTextOpacity.value = config.textOpacity
         binding.sliderImageOpacity.value = config.imageOpacity
+
+        // 设置定位参考系
+        val textReferenceIndex = when (config.textPositionReference) {
+            cn.alittlecookie.lut2photo.lut2photo.model.WatermarkPositionReference.CANVAS -> 0
+            cn.alittlecookie.lut2photo.lut2photo.model.WatermarkPositionReference.ORIGINAL -> 1
+            cn.alittlecookie.lut2photo.lut2photo.model.WatermarkPositionReference.TOP_BORDER -> 2
+            cn.alittlecookie.lut2photo.lut2photo.model.WatermarkPositionReference.BOTTOM_BORDER -> 3
+            cn.alittlecookie.lut2photo.lut2photo.model.WatermarkPositionReference.LEFT_BORDER -> 4
+            cn.alittlecookie.lut2photo.lut2photo.model.WatermarkPositionReference.RIGHT_BORDER -> 5
+        }
+        val imageReferenceIndex = when (config.imagePositionReference) {
+            cn.alittlecookie.lut2photo.lut2photo.model.WatermarkPositionReference.CANVAS -> 0
+            cn.alittlecookie.lut2photo.lut2photo.model.WatermarkPositionReference.ORIGINAL -> 1
+            cn.alittlecookie.lut2photo.lut2photo.model.WatermarkPositionReference.TOP_BORDER -> 2
+            cn.alittlecookie.lut2photo.lut2photo.model.WatermarkPositionReference.BOTTOM_BORDER -> 3
+            cn.alittlecookie.lut2photo.lut2photo.model.WatermarkPositionReference.LEFT_BORDER -> 4
+            cn.alittlecookie.lut2photo.lut2photo.model.WatermarkPositionReference.RIGHT_BORDER -> 5
+        }
+
+        val referenceOptions = arrayOf(
+            getString(R.string.position_reference_canvas),
+            getString(R.string.position_reference_original),
+            getString(R.string.position_reference_top_border),
+            getString(R.string.position_reference_bottom_border),
+            getString(R.string.position_reference_left_border),
+            getString(R.string.position_reference_right_border)
+        )
+
+        binding.dropdownTextPositionReference.setText(referenceOptions[textReferenceIndex], false)
+        binding.dropdownImagePositionReference.setText(referenceOptions[imageReferenceIndex], false)
 
         // 设置大小
         binding.sliderTextSize.value = config.textSize.coerceAtLeast(0.1f)
