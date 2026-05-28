@@ -1,0 +1,279 @@
+ptp2/la-library.lo: ptp2/library.c ../config.h \
+  /mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/stdlib.h \
+  /mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/sys/cdefs.h \
+  /mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/android/versioning.h \
+  /mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/android/api-level.h \
+  /mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/android/ndk-version.h \
+  /mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/alloca.h \
+  /mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/bits/wait.h \
+  /mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/linux/wait.h \
+  /mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/malloc.h \
+  /mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/21/include/stddef.h \
+  /mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/21/include/__stddef_header_macro.h \
+  /mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/21/include/__stddef_ptrdiff_t.h \
+  /mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/21/include/__stddef_size_t.h \
+  /mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/21/include/__stddef_wchar_t.h \
+  /mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/21/include/__stddef_null.h \
+  /mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/21/include/__stddef_max_align_t.h \
+  /mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/21/include/__stddef_offsetof.h \
+  /mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/stdio.h \
+  /mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/sys/types.h \
+  /mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/21/include/stdint.h \
+  /mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/stdint.h \
+  /mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/bits/wchar_limits.h \
+  /mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/linux/types.h \
+  /mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/arm-linux-androideabi/asm/types.h \
+  /mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/asm-generic/int-ll64.h \
+  /mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/arm-linux-androideabi/asm/bitsperlong.h \
+  /mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/asm-generic/bitsperlong.h \
+  /mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/linux/posix_types.h \
+  /mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/linux/stddef.h \
+  /mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/linux/compiler_types.h \
+  /mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/linux/compiler.h \
+  /mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/arm-linux-androideabi/asm/posix_types.h \
+  /mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/asm-generic/posix_types.h \
+  /mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/bits/pthread_types.h \
+  /mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/21/include/stdarg.h \
+  /mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/21/include/__stdarg_header_macro.h \
+  /mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/21/include/__stdarg___gnuc_va_list.h \
+  /mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/21/include/__stdarg_va_list.h \
+  /mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/21/include/__stdarg_va_arg.h \
+  /mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/21/include/__stdarg___va_copy.h \
+  /mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/21/include/__stdarg_va_copy.h \
+  /mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/bits/seek_constants.h \
+  /mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/xlocale.h \
+  /mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/android/legacy_stdlib_inlines.h \
+  /mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/string.h \
+  /mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/bits/strcasecmp.h \
+  /mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/time.h \
+  /mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/sys/time.h \
+  /mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/linux/time.h \
+  /mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/bits/timespec.h \
+  /mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/linux/time_types.h \
+  /mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/sys/select.h \
+  /mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/signal.h \
+  /mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/arm-linux-androideabi/asm/sigcontext.h \
+  /mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/bits/signal_types.h \
+  /mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/21/include/limits.h \
+  /mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/limits.h \
+  /mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/21/include/float.h \
+  /mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/linux/limits.h \
+  /mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/bits/posix_limits.h \
+  /mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/linux/signal.h \
+  /mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/arm-linux-androideabi/asm/signal.h \
+  /mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/asm-generic/signal-defs.h \
+  /mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/arm-linux-androideabi/asm/siginfo.h \
+  /mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/asm-generic/siginfo.h \
+  /mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/sys/ucontext.h \
+  /mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/sys/user.h \
+  /mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/bits/page_size.h \
+  /mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/langinfo.h \
+  /mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/nl_types.h \
+  /mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/unistd.h \
+  /mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/bits/fcntl.h \
+  /mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/bits/getentropy.h \
+  /mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/bits/getopt.h \
+  /mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/bits/ioctl.h \
+  /mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/bits/lockf.h \
+  /mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/bits/sysconf.h \
+  /mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/android/legacy_unistd_inlines.h \
+  ../gphoto2/gphoto2-library.h ../gphoto2/gphoto2-abilities-list.h \
+  ../gphoto2/gphoto2-context.h ../gphoto2/gphoto2-list.h \
+  ../libgphoto2_port/gphoto2/gphoto2-port-info-list.h \
+  ../libgphoto2_port/gphoto2/gphoto2-port.h \
+  ../libgphoto2_port/gphoto2/gphoto2-port-portability.h \
+  /mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/strings.h \
+  /mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/dirent.h \
+  /mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/sys/param.h \
+  /mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/endian.h \
+  /mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/sys/endian.h \
+  /mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/linux/param.h \
+  /mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/arm-linux-androideabi/asm/param.h \
+  /mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/asm-generic/param.h \
+  /mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/sys/stat.h \
+  /mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/linux/stat.h \
+  ../libgphoto2_port/gphoto2/gphoto2-port-log.h \
+  ../gphoto2/gphoto2-camera.h ../gphoto2/gphoto2-widget.h \
+  ../gphoto2/gphoto2-filesys.h ../gphoto2/gphoto2-file.h \
+  ../gphoto2/gphoto2-result.h \
+  ../libgphoto2_port/gphoto2/gphoto2-port-result.h \
+  ../gphoto2/gphoto2-setting.h ../libgphoto2/i18n.h ptp2/ptp.h \
+  /mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/iconv.h \
+  ../libgphoto2/gphoto2-endian.h \
+  /mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/arpa/inet.h \
+  /mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/netinet/in.h \
+  /mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/netinet/in6.h \
+  /mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/linux/in6.h \
+  /mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/linux/libc-compat.h \
+  /mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/sys/socket.h \
+  /mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/arm-linux-androideabi/asm/fcntl.h \
+  /mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/asm-generic/fcntl.h \
+  /mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/bits/flock64.h \
+  /mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/bits/flock.h \
+  /mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/arm-linux-androideabi/asm/socket.h \
+  /mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/asm-generic/socket.h \
+  /mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/arm-linux-androideabi/asm/sockios.h \
+  /mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/asm-generic/sockios.h \
+  /mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/linux/sockios.h \
+  /mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/linux/uio.h \
+  /mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/bits/sockaddr_storage.h \
+  /mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/bits/sa_family_t.h \
+  /mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/linux/in.h \
+  /mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/bits/ip_msfilter.h \
+  /mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/bits/in_addr.h \
+  /mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/bits/ip_mreq_source.h \
+  /mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/linux/socket.h \
+  /mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/arm-linux-androideabi/asm/byteorder.h \
+  /mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/linux/byteorder/little_endian.h \
+  /mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/linux/swab.h \
+  /mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/arm-linux-androideabi/asm/swab.h \
+  /mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/linux/ipv6.h \
+  /mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/byteswap.h \
+  ptp2/array.h ptp2/device-flags.h ptp2/chdk_ptp.h ptp2/chdk_live_view.h \
+  ptp2/ptp-bugs.h ptp2/ptp-private.h ptp2/olympus-wrap.h \
+  ptp2/music-players.h
+../config.h:
+/mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/stdlib.h:
+/mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/sys/cdefs.h:
+/mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/android/versioning.h:
+/mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/android/api-level.h:
+/mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/android/ndk-version.h:
+/mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/alloca.h:
+/mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/bits/wait.h:
+/mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/linux/wait.h:
+/mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/malloc.h:
+/mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/21/include/stddef.h:
+/mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/21/include/__stddef_header_macro.h:
+/mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/21/include/__stddef_ptrdiff_t.h:
+/mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/21/include/__stddef_size_t.h:
+/mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/21/include/__stddef_wchar_t.h:
+/mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/21/include/__stddef_null.h:
+/mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/21/include/__stddef_max_align_t.h:
+/mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/21/include/__stddef_offsetof.h:
+/mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/stdio.h:
+/mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/sys/types.h:
+/mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/21/include/stdint.h:
+/mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/stdint.h:
+/mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/bits/wchar_limits.h:
+/mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/linux/types.h:
+/mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/arm-linux-androideabi/asm/types.h:
+/mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/asm-generic/int-ll64.h:
+/mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/arm-linux-androideabi/asm/bitsperlong.h:
+/mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/asm-generic/bitsperlong.h:
+/mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/linux/posix_types.h:
+/mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/linux/stddef.h:
+/mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/linux/compiler_types.h:
+/mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/linux/compiler.h:
+/mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/arm-linux-androideabi/asm/posix_types.h:
+/mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/asm-generic/posix_types.h:
+/mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/bits/pthread_types.h:
+/mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/21/include/stdarg.h:
+/mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/21/include/__stdarg_header_macro.h:
+/mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/21/include/__stdarg___gnuc_va_list.h:
+/mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/21/include/__stdarg_va_list.h:
+/mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/21/include/__stdarg_va_arg.h:
+/mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/21/include/__stdarg___va_copy.h:
+/mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/21/include/__stdarg_va_copy.h:
+/mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/bits/seek_constants.h:
+/mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/xlocale.h:
+/mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/android/legacy_stdlib_inlines.h:
+/mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/string.h:
+/mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/bits/strcasecmp.h:
+/mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/time.h:
+/mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/sys/time.h:
+/mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/linux/time.h:
+/mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/bits/timespec.h:
+/mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/linux/time_types.h:
+/mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/sys/select.h:
+/mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/signal.h:
+/mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/arm-linux-androideabi/asm/sigcontext.h:
+/mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/bits/signal_types.h:
+/mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/21/include/limits.h:
+/mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/limits.h:
+/mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/21/include/float.h:
+/mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/linux/limits.h:
+/mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/bits/posix_limits.h:
+/mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/linux/signal.h:
+/mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/arm-linux-androideabi/asm/signal.h:
+/mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/asm-generic/signal-defs.h:
+/mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/arm-linux-androideabi/asm/siginfo.h:
+/mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/asm-generic/siginfo.h:
+/mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/sys/ucontext.h:
+/mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/sys/user.h:
+/mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/bits/page_size.h:
+/mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/langinfo.h:
+/mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/nl_types.h:
+/mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/unistd.h:
+/mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/bits/fcntl.h:
+/mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/bits/getentropy.h:
+/mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/bits/getopt.h:
+/mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/bits/ioctl.h:
+/mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/bits/lockf.h:
+/mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/bits/sysconf.h:
+/mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/android/legacy_unistd_inlines.h:
+../gphoto2/gphoto2-library.h:
+../gphoto2/gphoto2-abilities-list.h:
+../gphoto2/gphoto2-context.h:
+../gphoto2/gphoto2-list.h:
+../libgphoto2_port/gphoto2/gphoto2-port-info-list.h:
+../libgphoto2_port/gphoto2/gphoto2-port.h:
+../libgphoto2_port/gphoto2/gphoto2-port-portability.h:
+/mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/strings.h:
+/mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/dirent.h:
+/mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/sys/param.h:
+/mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/endian.h:
+/mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/sys/endian.h:
+/mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/linux/param.h:
+/mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/arm-linux-androideabi/asm/param.h:
+/mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/asm-generic/param.h:
+/mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/sys/stat.h:
+/mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/linux/stat.h:
+../libgphoto2_port/gphoto2/gphoto2-port-log.h:
+../gphoto2/gphoto2-camera.h:
+../gphoto2/gphoto2-widget.h:
+../gphoto2/gphoto2-filesys.h:
+../gphoto2/gphoto2-file.h:
+../gphoto2/gphoto2-result.h:
+../libgphoto2_port/gphoto2/gphoto2-port-result.h:
+../gphoto2/gphoto2-setting.h:
+../libgphoto2/i18n.h:
+ptp2/ptp.h:
+/mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/iconv.h:
+../libgphoto2/gphoto2-endian.h:
+/mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/arpa/inet.h:
+/mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/netinet/in.h:
+/mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/netinet/in6.h:
+/mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/linux/in6.h:
+/mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/linux/libc-compat.h:
+/mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/sys/socket.h:
+/mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/arm-linux-androideabi/asm/fcntl.h:
+/mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/asm-generic/fcntl.h:
+/mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/bits/flock64.h:
+/mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/bits/flock.h:
+/mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/arm-linux-androideabi/asm/socket.h:
+/mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/asm-generic/socket.h:
+/mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/arm-linux-androideabi/asm/sockios.h:
+/mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/asm-generic/sockios.h:
+/mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/linux/sockios.h:
+/mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/linux/uio.h:
+/mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/bits/sockaddr_storage.h:
+/mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/bits/sa_family_t.h:
+/mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/linux/in.h:
+/mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/bits/ip_msfilter.h:
+/mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/bits/in_addr.h:
+/mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/bits/ip_mreq_source.h:
+/mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/linux/socket.h:
+/mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/arm-linux-androideabi/asm/byteorder.h:
+/mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/linux/byteorder/little_endian.h:
+/mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/linux/swab.h:
+/mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/arm-linux-androideabi/asm/swab.h:
+/mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/linux/ipv6.h:
+/mnt/d/AndroidStudioSDK/ndk/android-ndk-r29-linux/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/byteswap.h:
+ptp2/array.h:
+ptp2/device-flags.h:
+ptp2/chdk_ptp.h:
+ptp2/chdk_live_view.h:
+ptp2/ptp-bugs.h:
+ptp2/ptp-private.h:
+ptp2/olympus-wrap.h:
+ptp2/music-players.h:

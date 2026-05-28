@@ -1,0 +1,5 @@
+libgphoto2_port_la-gphoto2-port-result.lo: gphoto2-port-result.c \
+  ../config.h ../gphoto2/gphoto2-port-result.h ../libgphoto2_port/i18n.h
+../config.h:
+../gphoto2/gphoto2-port-result.h:
+../libgphoto2_port/i18n.h:

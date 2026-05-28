@@ -1,0 +1,2 @@
+ptp2/la-olympus-wrap.lo: ptp2/olympus-wrap.c ../config.h
+../config.h:

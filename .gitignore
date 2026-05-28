@@ -20,7 +20,6 @@ local.properties
 /.kotlin/errors/errors-1756173510688.log
 /.kiro/
 /logcat.txt
-/build_native
 /.kotlin/
 /.idea/
 /.vscode/settings.json
